@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16A651F142CE0C400DDC749 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16A651E142CE0C400DDC749 /* UIKit.framework */; };
+		E16A6521142CE0C400DDC749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16A6520142CE0C400DDC749 /* Foundation.framework */; };
+		E16A6523142CE0C400DDC749 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16A6522142CE0C400DDC749 /* CoreGraphics.framework */; };
+		E16A6525142CE0C400DDC749 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16A6524142CE0C400DDC749 /* CoreData.framework */; };
+		E16A652B142CE0C400DDC749 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E16A6529142CE0C400DDC749 /* InfoPlist.strings */; };
+		E16A652D142CE0C400DDC749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16A652C142CE0C400DDC749 /* main.m */; };
+		E16A6531142CE0C400DDC749 /* EasyThingsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16A6530142CE0C400DDC749 /* EasyThingsAppDelegate.m */; };
+		E16A6534142CE0C400DDC749 /* EasyThings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E16A6532142CE0C400DDC749 /* EasyThings.xcdatamodeld */; };
+		E16A6537142CE0C400DDC749 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16A6536142CE0C400DDC749 /* RootViewController.m */; };
+		E16A6539142CE0C400DDC749 /* DetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = E16A6538142CE0C400DDC749 /* DetailViewController.h */; };
+		E16A653B142CE0C400DDC749 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16A653A142CE0C400DDC749 /* DetailViewController.m */; };
+		E16A653E142CE0C400DDC749 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16A653C142CE0C400DDC749 /* RootViewController.xib */; };
+		E16A6541142CE0C400DDC749 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16A653F142CE0C400DDC749 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E16A651A142CE0C400DDC749 /* EasyThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16A651E142CE0C400DDC749 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E16A6520142CE0C400DDC749 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E16A6522142CE0C400DDC749 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E16A6524142CE0C400DDC749 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E16A6528142CE0C400DDC749 /* EasyThings-Info.plist */ = {isa = PBXFileReference; path = "EasyThings-Info.plist"; sourceTree = "<group>"; };
+		E16A652A142CE0C400DDC749 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E16A652C142CE0C400DDC749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16A652E142CE0C400DDC749 /* EasyThings-Prefix.pch */ = {isa = PBXFileReference; path = "EasyThings-Prefix.pch"; sourceTree = "<group>"; };
+		E16A652F142CE0C400DDC749 /* EasyThingsAppDelegate.h */ = {isa = PBXFileReference; path = EasyThingsAppDelegate.h; sourceTree = "<group>"; };
+		E16A6530142CE0C400DDC749 /* EasyThingsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyThingsAppDelegate.m; sourceTree = "<group>"; };
+		E16A6533142CE0C400DDC749 /* EasyThings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyThings.xcdatamodel; sourceTree = "<group>"; };
+		E16A6535142CE0C400DDC749 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		E16A6536142CE0C400DDC749 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E16A6538142CE0C400DDC749 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E16A653A142CE0C400DDC749 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E16A653D142CE0C400DDC749 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		E16A6540142CE0C400DDC749 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16A6517142CE0C400DDC749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16A651F142CE0C400DDC749 /* UIKit.framework in Frameworks */,
+				E16A6521142CE0C400DDC749 /* Foundation.framework in Frameworks */,
+				E16A6523142CE0C400DDC749 /* CoreGraphics.framework in Frameworks */,
+				E16A6525142CE0C400DDC749 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16A650F142CE0C400DDC749 = {
+			isa = PBXGroup;
+			children = (
+				E16A6526142CE0C400DDC749 /* EasyThings */,
+				E16A651D142CE0C400DDC749 /* Frameworks */,
+				E16A651B142CE0C400DDC749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16A651B142CE0C400DDC749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16A651A142CE0C400DDC749 /* EasyThings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16A651D142CE0C400DDC749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E16A651E142CE0C400DDC749 /* UIKit.framework */,
+				E16A6520142CE0C400DDC749 /* Foundation.framework */,
+				E16A6522142CE0C400DDC749 /* CoreGraphics.framework */,
+				E16A6524142CE0C400DDC749 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E16A6526142CE0C400DDC749 /* EasyThings */ = {
+			isa = PBXGroup;
+			children = (
+				E16A652F142CE0C400DDC749 /* EasyThingsAppDelegate.h */,
+				E16A6530142CE0C400DDC749 /* EasyThingsAppDelegate.m */,
+				E16A6535142CE0C400DDC749 /* RootViewController.h */,
+				E16A6536142CE0C400DDC749 /* RootViewController.m */,
+				E16A6538142CE0C400DDC749 /* DetailViewController.h */,
+				E16A653A142CE0C400DDC749 /* DetailViewController.m */,
+				E16A653C142CE0C400DDC749 /* RootViewController.xib */,
+				E16A653F142CE0C400DDC749 /* DetailViewController.xib */,
+				E16A6532142CE0C400DDC749 /* EasyThings.xcdatamodeld */,
+				E16A6527142CE0C400DDC749 /* Supporting Files */,
+			);
+			path = EasyThings;
+			sourceTree = "<group>";
+		};
+		E16A6527142CE0C400DDC749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16A6528142CE0C400DDC749 /* EasyThings-Info.plist */,
+				E16A6529142CE0C400DDC749 /* InfoPlist.strings */,
+				E16A652C142CE0C400DDC749 /* main.m */,
+				E16A652E142CE0C400DDC749 /* EasyThings-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16A6519142CE0C400DDC749 /* EasyThings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16A6544142CE0C400DDC749 /* Build configuration list for PBXNativeTarget "EasyThings" */;
+			buildPhases = (
+				E16A6516142CE0C400DDC749 /* Sources */,
+				E16A6517142CE0C400DDC749 /* Frameworks */,
+				E16A6518142CE0C400DDC749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyThings;
+			productName = EasyThings;
+			productReference = E16A651A142CE0C400DDC749 /* EasyThings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16A6511142CE0C400DDC749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = TJU;
+			};
+			buildConfigurationList = E16A6514142CE0C400DDC749 /* Build configuration list for PBXProject "EasyThings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E16A650F142CE0C400DDC749;
+			productRefGroup = E16A651B142CE0C400DDC749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16A6519142CE0C400DDC749 /* EasyThings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16A6518142CE0C400DDC749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16A652B142CE0C400DDC749 /* InfoPlist.strings in Resources */,
+				E16A6539142CE0C400DDC749 /* DetailViewController.h in Resources */,
+				E16A653E142CE0C400DDC749 /* RootViewController.xib in Resources */,
+				E16A6541142CE0C400DDC749 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16A6516142CE0C400DDC749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16A652D142CE0C400DDC749 /* main.m in Sources */,
+				E16A6531142CE0C400DDC749 /* EasyThingsAppDelegate.m in Sources */,
+				E16A6534142CE0C400DDC749 /* EasyThings.xcdatamodeld in Sources */,
+				E16A6537142CE0C400DDC749 /* RootViewController.m in Sources */,
+				E16A653B142CE0C400DDC749 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E16A6529142CE0C400DDC749 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16A652A142CE0C400DDC749 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E16A653C142CE0C400DDC749 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16A653D142CE0C400DDC749 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		E16A653F142CE0C400DDC749 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16A6540142CE0C400DDC749 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E16A6542142CE0C400DDC749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E16A6543142CE0C400DDC749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16A6545142CE0C400DDC749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyThings/EasyThings-Prefix.pch";
+				INFOPLIST_FILE = "EasyThings/EasyThings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E16A6546142CE0C400DDC749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyThings/EasyThings-Prefix.pch";
+				INFOPLIST_FILE = "EasyThings/EasyThings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16A6514142CE0C400DDC749 /* Build configuration list for PBXProject "EasyThings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16A6542142CE0C400DDC749 /* Debug */,
+				E16A6543142CE0C400DDC749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16A6544142CE0C400DDC749 /* Build configuration list for PBXNativeTarget "EasyThings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16A6545142CE0C400DDC749 /* Debug */,
+				E16A6546142CE0C400DDC749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E16A6532142CE0C400DDC749 /* EasyThings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E16A6533142CE0C400DDC749 /* EasyThings.xcdatamodel */,
+			);
+			currentVersion = E16A6533142CE0C400DDC749 /* EasyThings.xcdatamodel */;
+			path = EasyThings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E16A6511142CE0C400DDC749 /* Project object */;
+}
