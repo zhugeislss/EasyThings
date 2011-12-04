@@ -7,10 +7,7 @@
 //
 
 #import "EasyThingsAppDelegate.h"
-
 #import "RootViewController.h"
-
-#import "DetailViewController.h"
 
 @implementation EasyThingsAppDelegate
 
@@ -18,23 +15,12 @@
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
-@synthesize splitViewController = _splitViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
-    RootViewController *controller = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
-
-    DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
-
-    self.splitViewController = [[UISplitViewController alloc] init];
-    self.splitViewController.delegate = detailViewController;
-    self.splitViewController.viewControllers = [NSArray arrayWithObjects:navigationController, detailViewController, nil];
-    controller.detailViewController = detailViewController;
-    self.window.rootViewController = self.splitViewController;
+    RootViewController *controller = [[[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil] autorelease];
+    self.window.rootViewController = controller;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -186,6 +172,14 @@
 - (NSURL *)applicationDocumentsDirectory
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+- (void)dealloc {
+    [_window release];
+    [__managedObjectContext release];
+    [__managedObjectModel release];
+    [__persistentStoreCoordinator release];
+    [super dealloc];
 }
 
 @end

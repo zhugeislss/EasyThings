@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class DetailViewController;
-
 #import <CoreData/CoreData.h>
 
-@interface RootViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@class CardTableViewController;
+@class QuicknavTableViewController;
+@interface RootViewController : UIViewController {
+    IBOutlet CardTableViewController *_cardTableViewController;
+    IBOutlet QuicknavTableViewController *_quicknavTableViewController;
+}
 
-@property (strong, nonatomic) IBOutlet DetailViewController *detailViewController;
-
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (retain, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (retain, nonatomic) CardTableViewController *cardTableViewController;
+@property (retain, nonatomic) QuicknavTableViewController *quicknavTableViewController;
 
 @end
